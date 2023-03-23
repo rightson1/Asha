@@ -36,7 +36,6 @@ function MyApp(props) {
               <Navbar />
               <div className=" ">
                 <Component {...pageProps} />
-                <Sidebar />
               </div>
             </div>
           </ThemeProvider>) : (
@@ -46,9 +45,8 @@ function MyApp(props) {
                 <div className="">
                   <Navbar />
                   <Component {...pageProps} />
-                  {/* <ScrollToTop smooth color={"#FF6929"} height="15px" className="top" /> */}
-                  {/* <Footer /> */}
-                  <Sidebar />
+
+
                 </div>
               </div>
             </ThemeProvider>

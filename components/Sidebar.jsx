@@ -20,8 +20,8 @@ import HomeWorkIcon from '@mui/icons-material/HomeWork';
 import BookIcon from '@mui/icons-material/Book';
 import CallOutlinedIcon from '@mui/icons-material/CallOutlined';
 import Link from 'next/link';
-export default function Sidebar() {
-    const { open, setOpen, colors } = useGlobalProvider()
+export default function Sidebar({ open, setOpen }) {
+    const { colors } = useGlobalProvider()
     const router = useRouter()
 
     const toggleDrawer = (click) => (event) => {
@@ -51,7 +51,7 @@ export default function Sidebar() {
         >
             <Box className="flex justify-between">
                 <div className="flex">
-                    <Typography component="span" className="font-[900] pl-5" fontSize={font} sx={{
+                    <Typography component="span" className="font-[900] pl-3" fontSize={font} sx={{
                         color: colors.yellow[500]
                     }}>Abdull</Typography>
                     <Typography component="span" className="font-[900]"
