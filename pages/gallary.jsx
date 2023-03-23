@@ -17,6 +17,7 @@ const Gallery = () => {
                     <Grid item xs={12} md={4} key={index}>
                         <Box component={item.video ? 'video' : 'img'}
                             autoPlay loop
+                            controls
                             onClick={() => setOpen(item.video ? null : item.url)}
                             className='w-full h-full object-cover max-h-[250px]  cursor-pointer'
                             src={item.url}
