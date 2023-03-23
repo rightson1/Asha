@@ -64,7 +64,7 @@ export default function Home() {
 
         </div>
 
-        <Typography className="text-white font-semibold" variant="h4" fontFamily="Nunito" textAlign="center"
+        <Typography className="text-white font-semibold flex justify-center" variant="h4" fontFamily="Nunito" textAlign="center"
           fontSize={{
             xs: '1.5rem',
             md: '2rem'

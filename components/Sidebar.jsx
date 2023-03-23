@@ -31,6 +31,12 @@ export default function Sidebar() {
 
         setOpen(click);
     };
+    const font = {
+        xs: '1rem',
+        md: '1.5rem'
+
+    }
+
 
     const list = () => (
         <Box className="px-2 bg-transparent"
@@ -44,7 +50,15 @@ export default function Sidebar() {
 
         >
             <Box className="flex justify-between">
-                <img src="/logo.png" className='w-[50px] rounded-full' alt="" />
+                <div className="flex">
+                    <Typography component="span" className="font-[900] pl-5" fontSize={font} sx={{
+                        color: colors.yellow[500]
+                    }}>Abdull</Typography>
+                    <Typography component="span" className="font-[900]"
+                        fontSize={font} sx={{
+                            color: colors.teal[500]
+                        }}>ahi</Typography>
+                </div>
                 <IconButton className='self-end jus'>
                     <CloseIcon className='text-[30px]' />
                 </IconButton>
