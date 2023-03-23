@@ -13,7 +13,6 @@ import { AnimatePresence } from "framer-motion";
 import 'react-slideshow-image/dist/styles.css'
 import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
-import Footer from "../components/Footer";
 import "swiper/swiper-bundle.css";
 function MyApp(props) {
 
