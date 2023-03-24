@@ -30,9 +30,9 @@ const Left = ({ title }) => {
                     fontSize={{
                         xs: '2rem',
 
-                    }}>Cooking</Typography>
+                    }}>Events</Typography>
                 <Typography fontFamily="Questrial" className="text-[17px] " textAlign="center" color={colors.black[100]}>
-                    Cooking is one of my favorite hobbies, and I find so much joy in creating new dishes and experimenting with different ingredients. For me, cooking is not just about nourishing my body, it is also a way to express my creativity and connect with others. I love to invite friends and family over for meals, and it brings me so much happiness to see them enjoying the food I have prepared. One of my favorite things about cooking is the way it brings people together. Whether it is sharing a meal with loved ones or cooking with friends, there is something special about the way food can create a sense of community and togetherness. I also love to learn about different cuisines from around the world and incorporate those flavors and techniques into my own cooking. Overall, cooking is a deeply fulfilling and rewarding experience for me, and I look forward to continuing to explore new dishes and techniques in the kitchen.
+                    Our photography company also specializes in capturing the energy and excitement of events. From corporate events to music festivals, our team of skilled photographers is experienced in capturing the best moments of any occasion. We take a candid and journalistic approach to event photography, ensuring that we capture the essence and vibe of the event. We understand that each event is unique, and we work closely with our clients to ensure that we capture the shots that matter most to them. Our images are of the highest quality, and we use state-of-the-art equipment and techniques to ensure that our clients receive stunning and timeless images. Let us help you capture the memories of your next event with our exceptional event photography services. Contact us today to learn more about how we can help you capture the spirit of your next event.
                 </Typography>
 
             </Grid>

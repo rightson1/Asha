@@ -13,7 +13,7 @@ export default function Home() {
 
     {
 
-      title: 'About Me',
+      title: 'About Us',
       link: '/about'
     },
     {
@@ -21,13 +21,13 @@ export default function Home() {
       link: '/gallary'
     },
     {
-      title: 'Passions',
-      link: "/passions"
+      title: 'Our Services',
+      link: "/services"
     },
 
 
     {
-      title: "Contact Me",
+      title: "Contact Us",
       link: '/contact'
     },
 
@@ -47,17 +47,17 @@ export default function Home() {
             <div className="flex">
               <Typography component="span" className="font-[900]" fontSize={font} sx={{
                 color: colors.yellow[500]
-              }}>Abdull</Typography>
+              }}>Pict</Typography>
               <Typography component="span" className="font-[900]"
                 fontSize={font} sx={{
                   color: colors.teal[500]
-                }}>ahi</Typography>
+                }}>ure</Typography>
             </div>
             <Typography component="span" className="font-[900]"
               fontSize={font}
               sx={{
                 color: colors.black[100]
-              }}>  Asha </Typography>
+              }}> Perfect</Typography>
 
 
           </Typography>
@@ -71,7 +71,7 @@ export default function Home() {
           }}>
           <Typewriter
             options={{
-              strings: ['Loves Skating', 'Riara University Student'],
+              strings: ['Capturing moments, one click at a time.', 'We  have a lens for every occasion'],
               autoStart: true,
               loop: true,
             }}

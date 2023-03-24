@@ -53,11 +53,11 @@ export default function Sidebar({ open, setOpen }) {
                 <div className="flex">
                     <Typography component="span" className="font-[900] pl-3" fontSize={font} sx={{
                         color: colors.yellow[500]
-                    }}>Abdull</Typography>
+                    }}>Pict</Typography>
                     <Typography component="span" className="font-[900]"
                         fontSize={font} sx={{
                             color: colors.teal[500]
-                        }}>ahi</Typography>
+                        }}>ure</Typography>
                 </div>
                 <IconButton className='self-end jus'>
                     <CloseIcon className='text-[30px]' />
@@ -113,21 +113,23 @@ const listItems = [{
     link: '/'
 },
 {
+
+    name: 'About Us',
+    link: '/about'
+},
+{
     name: 'Gallery',
     link: '/gallary'
 },
 {
-    name: 'About Me ',
-    link: '/about'
-}, {
-    name: 'Passions',
-    link: '/passions'
-
+    name: 'Our Services',
+    link: "/services"
 },
 
-    ,
+
 {
-    name: 'Contact Me',
+    name: "Contact Us",
     link: '/contact'
-}
+},
+
 ]

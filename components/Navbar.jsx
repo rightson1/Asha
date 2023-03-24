@@ -17,7 +17,8 @@ const nav = [{
     link: '/'
 },
 {
-    name: 'About Me ',
+
+    name: 'About Us',
     link: '/about'
 },
 {
@@ -25,16 +26,15 @@ const nav = [{
     link: '/gallary'
 },
 {
-    name: 'Passions',
-    link: '/passions'
-
+    name: 'Our Services',
+    link: "/services"
 },
 
-    ,
+
 {
-    name: 'Contact Me',
+    name: "Contact Us",
     link: '/contact'
-}
+},
 ]
 
 const font = {
@@ -97,11 +97,11 @@ function Navbar() {
                             <div className="flex">
                                 <Typography component="span" className="font-[900]" fontSize={font} sx={{
                                     color: colors.yellow[500]
-                                }}>Abdull</Typography>
+                                }}>Pict</Typography>
                                 <Typography component="span" className="font-[900]"
                                     fontSize={font} sx={{
                                         color: colors.teal[500]
-                                    }}>ahi</Typography>
+                                    }}>ure</Typography>
                             </div>
                         </Box>
 
@@ -174,11 +174,11 @@ function Navbar() {
                             <div className="flex">
                                 <Typography component="span" className="font-[900]" fontSize={font} sx={{
                                     color: colors.yellow[500]
-                                }}>Abdull</Typography>
+                                }}>Pict</Typography>
                                 <Typography component="span" className="font-[900]"
                                     fontSize={font} sx={{
                                         color: colors.teal[500]
-                                    }}>ahi</Typography>
+                                    }}>ure</Typography>
                             </div>
                         </Box>
 

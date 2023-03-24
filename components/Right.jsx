@@ -37,9 +37,9 @@ const Right = ({ title }) => {
                     fontSize={{
                         xs: '2rem',
 
-                    }}>Travelling</Typography>
+                    }}>Weddings</Typography>
                 <Typography fontFamily="Questrial" className="text-[17px] px-5" textAlign="center" color={colors.black[100]}>
-                    Traveling is one of the most exciting experiences Ive ever had. I love the feeling of stepping into a new place, with new sights, smells, and sounds all around me. Whether I am exploring a bustling city or a quiet countryside, I always feel a sense of wonder and amazement at the beauty of the world around us. One of my favorite things about traveling is trying new foods. I believe that food is an important part of any culture, and I love to taste the local cuisine wherever I go. I also enjoy meeting new people and learning about their lives and cultures. Its amazing to see how much we all have in common, despite our differences. Traveling has broadened my horizons and helped me become a more open-minded and compassionate person. I cant wait to see where my next adventure will take me!
+                    At our photography company, we understand that your wedding day is one of the most important days of your life. That is why we offer exceptional wedding photography services to capture every moment of your special day. Our team of experienced photographers will work closely with you to ensure that we capture every detail and every emotion. From the pre-wedding preparations to the ceremony and reception, we will be there to document your special day so that you can relive those cherished moments for years to come. We use high-quality equipment and techniques to create stunning and timeless images that you will treasure forever. Let us help you capture the memories of your wedding day with our exceptional wedding photography services. Contact us today to schedule a consultation and learn more about how we can make your wedding day even more special.
                 </Typography>
 
             </Grid>

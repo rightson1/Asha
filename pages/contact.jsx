@@ -19,7 +19,7 @@ const Contact = () => {
 
                     </Box>
                     <Typography fontFamily="Questrial" variant="h1" color={colors.teal[500]}>
-                        CONTACT Me
+                        CONTACT US
                     </Typography>
                     <input type="name" className="outline-none p-4 w-full bg-white focus:border-b-2 focus:border-red-500 font-family:Questrial text-black" placeholder="Full Name" />
                     <input type="email" className="outline-none p-4 w-full bg-white focus:border-b-2 focus:border-red-500 font-family:Questrial text-black" placeholder="Email Address" />
@@ -30,7 +30,7 @@ const Contact = () => {
                             bgcolor: colors.teal[500] + " !important",
                         }}
                     >
-                        Contact Me
+                        Contact US
                         <ArrowRightAltIcon />
                     </Button>
                 </Box>

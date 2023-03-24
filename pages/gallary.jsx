@@ -2,21 +2,20 @@ import { Box, Grid } from '@mui/material';
 import Modal from '@mui/material/Modal';
 import CloseIcon from '@mui/icons-material/CloseOutlined';
 import * as React from 'react';
+import Hero from '../components/Hero';
 const Gallery = () => {
     const [open, setOpen] = React.useState(null);
 
     const handleClose = () => setOpen(null);
     return <div className="flex justify-center pb-10 flex-col ">
-        {/* <div className="w-full bg-slate-300 h-[40vh] ">
-            <video src="/video.mp4" className='h-full w-full' loop></video>
-        </div> */}
+        <Hero title="Our Moments" array={["Scroll", "Video / audio", "Scroll to See out moments"]} url="/images/8.jpg" />
         <Grid className="my-10 px-5" container spacing={3}>
 
             {images.map((item, index) => {
                 return (
                     <Grid item xs={12} md={4} key={index}>
                         <Box component={item.video ? 'video' : 'img'}
-                            autoPlay loop
+                            // autoPlay loop
                             controls
                             onClick={() => setOpen(item.video ? null : item.url)}
                             className='w-full h-full object-cover max-h-[250px]  cursor-pointer'
